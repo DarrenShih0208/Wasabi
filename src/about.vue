@@ -31,14 +31,14 @@
     <h1>Description</h1>
     <div class="select">
       <ul> 
-        <li>以手搖飲料為主題</li>            
-        <li>使用Vue Cli建置。</li>
-        <li>以scss撰寫內容樣式。</li>
-        <li>component模組化管理。</li>
-        <li>於線上訂單實現切換prop來改變對應的輸入類型。</li>
-        <li>使用Vue-Router切換頁面。</li>
-        <li>設定Global參數、讓頁面的顏色、主題會隨著更換</li>
-        <li>串接一組飲料圖片及價錢的列表資料api，呈現在線上訂單中</li>
+        <li>Take the hand-crank drink as the theme.</li>            
+        <li>Use Vue Cli to build.</li>
+        <li>Write content styles in scss.</li>
+        <li>Component modular management.</li>
+        <li>Switch props in online orders to change the corresponding input types, including text, select, and radio.</li>
+        <li>Use Vue-Router to switch pages.</li>
+        <li>Set the Global parameters, so that the color and theme of the page will be changed accordingly.</li>
+        <li>Concatenate a group of beverage pictures and price list data api, present in the online order.</li>
       </ul>
     </div>
   </div>
@@ -57,7 +57,8 @@
   }
   .select {
     position: relative;
-    left: 42%;
+    margin-top: 30px;
+    left: 30%;
   }
 } 
 </style>
